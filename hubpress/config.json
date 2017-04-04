@@ -5,6 +5,22 @@
     "branch": "gh-pages"
   },
   "theme": {
-    "name": "Casper"
+    "name": "casper"
+  },
+  "urls": {
+    "site": "https://gogonkt.github.io/makenothing",
+    "hubpress": "https://gogonkt.github.io/makenothing",
+    "theme": "//gogonkt.github.io/makenothing/themes/casper",
+    "images": "https://gogonkt.github.io/makenothing/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
   }
 }
