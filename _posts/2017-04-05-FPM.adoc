@@ -4,9 +4,9 @@ the Forth Package Manager
 
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 // :hp-image: /covers/cover.png
-// :published_at: 2017-04-05
-// :hp-tags: FPM, Blog, Open_Source, forth, package_manager
-// :hp-alt-title: FPM
+:published_at: 2017-04-05
+:hp-tags: FPM, Blog, Open_Source, forth, package_manager
+:hp-alt-title: FPM
 
 The whole idea is, we mantain a Matrix Dictionary on internet, fpm work like forth interprepter do 
 and 
