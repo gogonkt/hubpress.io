@@ -20,3 +20,25 @@
 11:33 AM P<@pointfree> Indeed.
 11:33 AM P<@pointfree> IMO, something else that currently prevents forth from becoming ecosystem oriented with package management etc, is the lack of support for unplanned, ad-hoc computing.
 11:33 AM P<@pointfree> Forth words are abbreviations, I think that's good, but if filtering interactions were easier, while retaining the structure of concise abbreviations, I think forth would benefit from an ecosystem as well.
+
+<@pointfree> mvll: @ words from the package repositories. I like it.
+11:33 AM M<mvll> maybe do it in a forth way 
+11:34 AM P<@pointfree> The tick ' could also double as the package manager word.
+11:34 AM M<mvll> ahha
+11:35 AM P<@pointfree> Getting words from the network when they are not available locally.
+11:35 AM M<mvll> we can put package on github like homebrew do
+11:36 AM M— mvll off for luch time
+11:36 AM P<@pointfree> enjoy your lunch!
+11:37 AM M<mvll> Thx!
+11:41 AM M<mvll> LOL, got a idea! we can make Matrix Dictionany, and then >> : newbar fpm@ bar ; >>, but how it work and no idea yet :P (off again)
+11:43 AM P<@pointfree> Interesting!
+3:34 PM M— mvll 
+3:34 PM M— mvll back
+3:44 PM M<mvll> the raw idea is, we mantain a Matrix Dictionary on internet, fpm work like forth interprepter do and : newbar fpm bar @ foo ; immediate  >> will fetch the remote words to local dictionary(do we need a "remote dictionary" handle it?)
+3:45 PM M<mvll> and we need "fpm" as a tool to handle search, install, unstall, clean cache, bla bla........
+3:49 PM M<mvll> aka. a forh core with "cloud" power
+4:10 PM M<mvll> or : newbar bar fpm@ foo ; immediate
+4:29 PM M<mvll> ( usage ..... ) for fpm usage bar, ( doc .... ) for fpm info bar
+4:30 PM M<mvll> The word address is URL to where can get the word
+
+
