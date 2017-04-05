@@ -1,0 +1,22 @@
+= FPM chat log
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+<mvll> I thinking about how to make a package manager  in forth
+11:10 AM M<mvll> and I search it, got your and Gareld got same idea 
+11:11 AM M<mvll> LOL
+11:11 AM P<@pointfree> Yes
+11:13 AM P<@pointfree> I think it may be advantageous to have fine grained, content addressable package management for individual words. Gerald Wodni did it with libraries.
+11:13 AM M<mvll> I think that a tool help developer speed up forth application is great
+11:14 AM M<mvll> something like brew, nmp,,,,
+11:17 AM P<@pointfree> Agreed. I think it would be important for such a package management tool to support diverging factorings and refactorings... because forths benefit a lot from reshaping and deleting words to fit the application at hand... code is the user interface.
+11:18 AM M<mvll> manager by word or libaries ....., sound intersting
+11:20 AM P<@pointfree> On the other hand converging word definitions could be an alternative to standardization without a tendency for stagnation.
+11:22 AM M<mvll> What can help forth back to real world,  package manager maybe a one thing , modem developing tools a had a PM, for example, PM help linux easy use very much
+11:30 AM M<mvll> we can install whole package > fpm install foo > or install a word "bar" in foo > fpm install foo bar
+11:31 AM M<mvll> fpm install bar @ foo >is better
+11:33 AM P<@pointfree> Indeed.
+11:33 AM P<@pointfree> IMO, something else that currently prevents forth from becoming ecosystem oriented with package management etc, is the lack of support for unplanned, ad-hoc computing.
+11:33 AM P<@pointfree> Forth words are abbreviations, I think that's good, but if filtering interactions were easier, while retaining the structure of concise abbreviations, I think forth would benefit from an ecosystem as well.
