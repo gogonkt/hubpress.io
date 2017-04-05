@@ -1,0 +1,29 @@
+= FPM
+
+the Forth Package Manager
+
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+== FPM
+
+The whole idea is, we mantain a Matrix Dictionary on internet, fpm work like forth interprepter do 
+and 
+
+: newbar fpm bar @ foo ; immediate  
+
+>> will fetch the remote words to local dictionary(do we need a "remote dictionary" handle it?)
+
+and we need "fpm" as a tool to handle search, install, unstall, clean cache, bla bla........
+
+aka. a forh core with "cloud" power
+
+or 
+
+: newbar bar fpm@ foo ; immediate
+
+( usage ..... ) for fpm usage bar, ( doc .... ) for fpm info bar
+The word address is URL to where can get the word
