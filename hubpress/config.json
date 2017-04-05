@@ -11,7 +11,7 @@
   "urls": {
     "site": "https://gogonkt.github.io/makenothing",
     "hubpress": "https://gogonkt.github.io/makenothing",
-    "theme": "//gogonkt.github.io/makenothing/themes/casper",
+    "theme": "//gogonkt.github.io/makenothing/themes/uno",
     "images": "https://gogonkt.github.io/makenothing/images"
   },
   "initialisationConfigComponent": {
